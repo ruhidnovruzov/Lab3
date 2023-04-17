@@ -1,0 +1,241 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        background-color: #f6ecce;
+    }
+    
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 80px;
+        background: #f6ecce;
+        border-bottom: 2px solid black;
+    }
+    
+    nav .navbar {
+        margin: auto;
+        display: flex;
+        margin-left: 100px
+    }
+    
+    nav .navbar .logo a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    nav .navbar .nav-links .links {
+        display: flex;
+    }
+    
+    nav .navbar .nav-links .links li {
+        list-style: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0 14px;
+        white-space: nowrap;
+        padding-left: 50px;
+    }
+    
+    nav .navbar .nav-links .links {
+        margin-top: 27px;
+    }
+    
+    nav .navbar .nav-links .links li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding-left: px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .logo {
+        margin-top: 15px;
+        margin-right: 10px;
+        display: flex;
+        position: fixed;
+    }
+    
+    .nav-links {
+        margin-left: 305px;
+    }
+    
+    .box {
+        border: 2px solid black;
+        height: 500px;
+        width: 250px;
+        margin-left: 388px;
+        background-color: #d73503b8;
+        border-top: none;
+    }
+    
+    button {
+        margin-left: 53px;
+        height: 33px;
+        width: 120px;
+        margin-top: 23px;
+        background-color: rgb(26, 26, 26);
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    
+    button:hover {
+        background-color: black;
+    }
+    
+    .box2 {
+        width: 1375px;
+        height: 420px;
+        border: 2px solid black;
+        margin-left: 100px;
+        margin-top: 80px;
+        border-top: none;
+    }
+    
+    .logo1 {
+        margin-top: 7px;
+    }
+    
+    .foto {
+        margin-top: 50px;
+    }
+    
+    .man {
+        margin-bottom: 50px;
+        clip-path: polygon(0 0, 100% 0%, 100% 75%, 39% 100%, 0 75%);
+        margin-left: 1025px;
+    }
+    
+    .head {
+        display: flex;
+        position: fixed;
+    }
+    
+    .head h1 {
+        margin-left: 60px;
+        margin-top: 30px;
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+    
+    .foot1 {
+        height: 200px;
+        width: 670px;
+        border: 1px solid black;
+        display: flex;
+        position: fixed;
+        border-top: none;
+        background-color: #f3e0a6f1;
+    }
+    
+    .foot2 {
+        height: 200px;
+        width: 350px;
+        border: 1px solid black;
+        position: fixed;
+        margin-left: 670px;
+        border-top: none;
+    }
+    
+    .foot3 {
+        height: 200px;
+        width: 355px;
+        border: 1px solid black;
+        position: fixed;
+        margin-left: 1020px;
+        border-top: none;
+    }
+    
+    .foot {
+        margin-left: 100px;
+    }
+    
+    .head-p {
+        margin-top: 250px;
+        display: flex;
+        position: fixed;
+        margin-left: 60px;
+    }
+    
+    .get {
+        position: fixed;
+        margin-top: 330px;
+        margin-left: 60px;
+        background-color: #d73503b8;
+        box-shadow: 7px 8px 5px -5px rgba(0, 0, 0, 1);
+        -webkit-box-shadow: 7px 8px 5px -5px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 7px 8px 5px -5px rgba(0, 0, 0, 1);
+    }
+    
+    .foot1 h3 {
+        font-weight: 480;
+        font-size: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    
+    .f1p {
+        display: flex;
+        position: fixed;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    i {
+        background-color: white;
+        position: fixed;
+        padding: 15px;
+        clip-path: circle(50% at 50% 50%);
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    .ui {
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    
+    .ui {
+        font-weight: 500;
+    }
+    
+    .f2p {
+        margin-left: 30px;
+    }
+    
+    .web {
+        margin-top: 90px;
+        margin-left: 30px;
+        font-weight: 500;
+    }
+    
+    .f3p {
+        margin-left: 30px;
+    }
+    
+    span {
+        background-color: white;
+        position: fixed;
+        padding: 15px;
+        clip-path: circle(50% at 50% 50%);
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    nav .navbar .nav-links .links li a:hover {
+        color: #c4542f;
+        border-bottom: 1px solid #c4542f;
+    }
